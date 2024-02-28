@@ -6,11 +6,11 @@ Ko odjemalec želi komunicirati s strežnikom se zgodijo naslednji koraki:
 
 2. Odjemalec pošlje HTTP povpraševanje, ki je sestavljeno iz začetne vrstice, poljubnega števila glav, prazne vrstice in poljubne vsebine. Začetna vrstica je sestavljena iz metode (`GET`, `POST`), presledka, poti, presledka, HTTP-verzije (v našem primeru bomo podprli samo `HTTP/1.1`). Vsaka glava je sestavljena iz imena, dvopičja, poljubnega števila presledkov ali tabulatorjev, vrednosti, poljubnega števila presledkov ali tabulatorjev. Imena glav so *case-insensitive*. Nato sledi prazna vrstica. Vsaki vrstici sledi končnica CR LF (`\r\n`). Za tem lahko sledi vsebina povpraševanja. V primeru, da je prisotna bosta zraven poslani glavi `Content-Length`, katere vrednost je velikost vsebine v bajtih, in `Content-Type`, katere vrednost je format vsebine v obliki tipa MIME. Tipi MIME so *case-insensitive*.
 
-  ![request](request.svg)
+    ![request](request.svg)
 
 3. Strežnik vrne HTTP odgovor, ki je sestavljen enako kot HTTP povpraševanje, edina razlika je, da je začetna vrstica sestavljena iz HTTP-verzije, presledka, statusne kode (`200`, `400`, `404`), presledka in razloga (`OK`, `Bad request`, `Not found`).
 
-  ![response](response.svg)
+    ![response](response.svg)
 
 4. TCP povezava se zapre.
 
