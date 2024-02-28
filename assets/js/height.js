@@ -1,3 +1,3 @@
 window.addEventListener("load", () => {
-  window.parent.postMessage(document.body.scrollHeight, '*');
+  window.parent.postMessage(document.documentElement.getBoundingClientRect().height, '*');
 })
