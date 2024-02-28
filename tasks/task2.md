@@ -45,11 +45,13 @@ Datoteke, ki jih morate vrniti so v mapi `templates`. Vsebino lahko preberete iz
 
 Za dekodiranje URL kodiranja lahko uporabite poljubno knjižnico ali podprite vsaj dekodiranje presledkov, ki so v testih vedno kodirani kot `%20` (torej vse `%20` zamenjajte s presledkom).
 
-
-
 Več si lahko preberete tukaj:
 
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_flow)
 * [HTTP standard](https://datatracker.ietf.org/doc/html/rfc7230#section-3)
 * [`x-www-form-urlencoded`](https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4.1)
 * [MIME](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+
+Na voljo imate dve obliki naloge, pri prvi so končnice mešane, tako kot je opisano zgoraj, pri drugi pa so kot poenostavitev prilagojene vašemu operacijskemu sistemu (torej na Windows bo povsod sledila končnica CR LF, na Linux in macOS LF). Katero boste reševali si lahko izberete sami, za pravilno rešitev v obeh primerih dobite polne točke.
+
+Nalogo oddajte na GitHub, [original](https://classroom.github.com/a/FUmT7Icg), [poenostavljena](https://classroom.github.com/a/Q0yJ7MXt).
