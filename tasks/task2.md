@@ -26,7 +26,7 @@ Podpreti morate naslednje možnosti (za ujemanje poti uporabite regularne izraze
 
 * GET /form
 
-  Vrnite vsebino `form.html` s statusom "200 OK".
+  Vrnite vsebino `form.html` s statusom `200 OK`.
 
 * POST /form-response
 
@@ -35,7 +35,7 @@ Podpreti morate naslednje možnosti (za ujemanje poti uporabite regularne izraze
   message=**message**
 
   Dekodirate URL kodiranje.
-  Vrnite vsebino `form-response.html` s statusom `200 OK`, kjer `${message}"`zamenjate z **message**.
+  Vrnite vsebino `form-response.html` s statusom `200 OK`, kjer `${message}`zamenjate z **message**.
 
 * V primeru, da pot ne obstaja vrnite vsebino `404.html` s statusom `404 Not found`.
 
