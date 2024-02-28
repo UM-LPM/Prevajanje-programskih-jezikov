@@ -2,7 +2,7 @@
 
 ## Moodle hook
 
-Paste this as the HTML of the task description (More buttons ```↴```, HTML ```<>```), substitute ```{{url}}``` with the URL that points to a HTML page, which is then displayed inside the description box.
+Paste this as the HTML of the task description (More buttons ```↴```, HTML ```<>```), substitute ```{{url}}``` with a URL that points to a HTML page, which will then be displayed inside of the description box.
 Unfortunately, this needs to be done manually.
 
 ```html
