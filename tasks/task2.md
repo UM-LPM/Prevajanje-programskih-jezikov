@@ -41,9 +41,11 @@ Podpreti morate naslednje možnosti (za ujemanje poti uporabite regularne izraze
 
 * V primeru, da povpraševanje ni pravilne oblike vrnite vsebino `400.html` s statusom `400 Bad request`.
 
-Datoteke, ki jih morate vrniti so v mapi `templates`. Vsebino lahko preberete iz datoteke ali pa jo prilepite v izvorno kodo. V slednjem primeru bodite pozorni, da vsaki vrstici sledi končnica LF (`\n`), zadnja vrstica v datoteki je prazna. Vrednost glave `Content-Type` za HTML datoteke je "text/html".
+Datoteke, ki jih morate vrniti so v mapi `templates`. Vsebino lahko preberete iz datoteke ali pa jo prilepite v izvorno kodo. V slednjem primeru bodite pozorni, da vsaki vrstici sledi končnica LF (`\n`), zadnja vrstica v datoteki je prazna. Vrednost glave `Content-Type` za HTML datoteke je `text/html`.
 
 Za dekodiranje URL kodiranja lahko uporabite poljubno knjižnico ali podprite vsaj dekodiranje presledkov, ki so v testih vedno kodirani kot `%20` (torej vse `%20` zamenjajte s presledkom).
+
+
 
 Več si lahko preberete tukaj:
 
