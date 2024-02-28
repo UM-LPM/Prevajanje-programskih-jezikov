@@ -4,11 +4,11 @@ Ko odjemalec želi komunicirati s strežnikom se zgodijo naslednji koraki:
 
 1. Odpre se TCP povezava.
 
-2. Odjemalec pošlje HTTP povpraševanje, ki je sestavljeno iz začetne vrstice, poljubnega števila glav, prazne vrstice in poljubne vsebine. Začetna vrstica je sestavljena iz metode (GET, POST), presledka, poti, presledka, HTTP-verzije (v našem primeru bomo podprli samo HTTP/1.1). Vsaka glava je sestavljena iz imena, dvopičja, poljubnega števila presledkov ali tabulatorjev, vrednosti, poljubnega števila presledkov ali tabulatorjev. Imena glav so *case-insensitive*. Nato sledi prazna vrstica. Vsaki vrstici sledi končnica CR LF ("\r\n"). Za tem lahko sledi vsebina povpraševanja. V primeru, da je prisotna bosta zraven poslani glavi "Content-Length", katere vrednost je velikost vsebine v bajtih, in "Content-Type", katere vrednost je format vsebine v obliki tipa MIME. Tipi MIME so *case-insensitive*.
+2. Odjemalec pošlje HTTP povpraševanje, ki je sestavljeno iz začetne vrstice, poljubnega števila glav, prazne vrstice in poljubne vsebine. Začetna vrstica je sestavljena iz metode (`GET`, `POST`), presledka, poti, presledka, HTTP-verzije (v našem primeru bomo podprli samo `HTTP/1.1`). Vsaka glava je sestavljena iz imena, dvopičja, poljubnega števila presledkov ali tabulatorjev, vrednosti, poljubnega števila presledkov ali tabulatorjev. Imena glav so *case-insensitive*. Nato sledi prazna vrstica. Vsaki vrstici sledi končnica CR LF (`\r\n`). Za tem lahko sledi vsebina povpraševanja. V primeru, da je prisotna bosta zraven poslani glavi `Content-Length`, katere vrednost je velikost vsebine v bajtih, in `Content-Type`, katere vrednost je format vsebine v obliki tipa MIME. Tipi MIME so *case-insensitive*.
 
 ![request](request.svg)
 
-3. Strežnik vrne HTTP odgovor, ki je sestavljen enako kot HTTP povpraševanje, edina razlika je, da je začetna vrstica sestavljena iz HTTP-verzije, presledka, statusne kode (200, 400, 404), presledka in razloga ("OK", "Bad request", "Not found").
+3. Strežnik vrne HTTP odgovor, ki je sestavljen enako kot HTTP povpraševanje, edina razlika je, da je začetna vrstica sestavljena iz HTTP-verzije, presledka, statusne kode (`200`, `400`, `404`), presledka in razloga (`OK`, `Bad request`, `Not found`).
 
 ![response](response.svg)
 
@@ -22,32 +22,32 @@ Podpreti morate naslednje možnosti (za ujemanje poti uporabite regularne izraze
 
   Prejmite **message** kot del poti.
   Dekodirate URL kodiranje.
-  Vrnite vsebino "echo.html" s statusom "200 OK", kjer "${message}" zamenjate z **message**.
+  Vrnite vsebino `echo.html` s statusom `200 OK`, kjer `${message}` zamenjate z **message**.
 
 * GET /form
 
-  Vrnite vsebino "form.html" s statusom "200 OK".
+  Vrnite vsebino `form.html` s statusom "200 OK".
 
 * POST /form-response
 
-  Prejmite **message** znotraj vsebine, ki je v formatu "x-www-form-urlencoded":
+  Prejmite **message** znotraj vsebine, ki je v formatu `x-www-form-urlencoded`:
 
   message=**message**
 
   Dekodirate URL kodiranje.
-  Vrnite vsebino "form-response.html" s statusom "200 OK", kjer "${message}" zamenjate z **message**.
+  Vrnite vsebino `form-response.html` s statusom `200 OK`, kjer `${message}"`zamenjate z **message**.
 
-* V primeru, da pot ne obstaja vrnite vsebino "404.html" s statusom "404 Not found".
+* V primeru, da pot ne obstaja vrnite vsebino `404.html` s statusom `404 Not found`.
 
-* V primeru, da povpraševanje ni pravilne oblike vrnite vsebino "400.html" s statusom "400 Bad request".
+* V primeru, da povpraševanje ni pravilne oblike vrnite vsebino `400.html` s statusom `400 Bad request`.
 
-Datoteke, ki jih morate vrniti so v mapi "templates". Vsebino lahko preberete iz datoteke ali pa jo prilepite v izvorno kodo. V slednjem primeru bodite pozorni, da vsaki vrstici sledi končnica LF ("\n"), zadnja vrstica v datoteki je prazna. Vrednost glave "Content-Type" za HTML datoteke je "text/html".
+Datoteke, ki jih morate vrniti so v mapi `templates`. Vsebino lahko preberete iz datoteke ali pa jo prilepite v izvorno kodo. V slednjem primeru bodite pozorni, da vsaki vrstici sledi končnica LF (`\n`), zadnja vrstica v datoteki je prazna. Vrednost glave `Content-Type` za HTML datoteke je "text/html".
 
-Za dekodiranje URL kodiranja lahko uporabite poljubno knjižnico ali podprite vsaj dekodiranje presledkov, ki so v testih vedno kodirani kot "%20" (torej vse "%20" zamenjajte s presledkom).
+Za dekodiranje URL kodiranja lahko uporabite poljubno knjižnico ali podprite vsaj dekodiranje presledkov, ki so v testih vedno kodirani kot `%20` (torej vse `%20` zamenjajte s presledkom).
 
 Več si lahko preberete tukaj:
 
-* https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_flow
-* https://datatracker.ietf.org/doc/html/rfc7230#section-3
-* https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4.1
-* https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#http_flow)
+* [HTTP standard](https://datatracker.ietf.org/doc/html/rfc7230#section-3)
+* [`x-www-form-urlencoded`](https://www.w3.org/TR/html401/interact/forms.html#h-17.13.4.1)
+* [MIME](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
