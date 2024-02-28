@@ -27,3 +27,5 @@ Lep pozdrav,
 Tine Novak
 BANKA, d. d.
 ```
+
+Nalogo odajte na GitHub, [link](https://classroom.github.com/a/FDmXkNZK).
