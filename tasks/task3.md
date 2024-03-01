@@ -2,7 +2,7 @@ Napišite program, ki bo v tekstovnih dokumentih cenzuriral številke kreditnih 
 
 Primer:
 
-`email.txt`
+Vhod:
 
 ```
 Spoštovani,
@@ -15,7 +15,7 @@ Tine Novak
 BANKA, d. d.
 ```
 
-`email-cen.txt`
+Izhod:
 
 ```
 Spoštovani,
