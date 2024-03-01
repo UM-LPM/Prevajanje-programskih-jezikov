@@ -1,11 +1,5 @@
 # Prevajanje programskih jezikov
 
-## Tasks
-
-* [task1](tasks/task1)
-* [task2](tasks/task2)
-* [task3](tasks/task3)
-
 ## Moodle hook
 
 Paste this as the HTML of the task description (More buttons ```↴```, HTML ```<>```), substitute ```URL``` with a URL that points to a HTML page, which will then be displayed inside of the description box.
