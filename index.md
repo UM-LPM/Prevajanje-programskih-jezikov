@@ -1,5 +1,32 @@
 # Prevajanje programskih jezikov
 
+## Izvajalci
+
+* Predavatelj: red. prof. dr. Marjan Mernik
+* Asistent: doc. dr. Tomaž Kos
+* Asistent: Žiga Leber mag.
+
+## Termini:
+
+* Seminarske vaje: 3 ure
+* Računalniške vaje: 42 ure
+* Termin skupin:
+  - RV1: Torek 15:00 - 18:00
+  - RV2: Torek 18:00 - 21:00
+  - RV3: Četrtek 15:00 - 18:00
+  - RV4: Četrtek 18:00 - 21:00
+
+## Ocenjevanje
+
+* Sestava ocene
+  - Obvezne vaje
+  - Neobvezne vaje
+  - Projektno delo
+* Pravila
+  - Sprotni zagovori (teden po objavi naloge)
+  - Zagovor po roku, polovične točke
+  - Obvezna prisotnost
+
 ## Naloge
 
 * [Naloga 1](tasks/task1)
