@@ -14,7 +14,7 @@ Ko odjemalec želi komunicirati s strežnikom se zgodijo naslednji koraki:
 
 4. TCP povezava se zapre.
 
-Za testiranje bomo namesto TCP povezave uporabili vhodno in izhodno datoteko. Vaša naloga je, da iz vhodne datoteke preberete HTTP povpraševanje vrstico za vrstico in z regularnimi izrazi izluščite metodo, pot in glave, nato preberete še vsebino. Nato na podlagi teh informacij izberete primeren način procesiranja, in pripravite HTTP odgovor, ki ga zapišete v izhodno datoteko.
+Za testiranje bomo namesto TCP povezave uporabili vhodno in izhodno datoteko. Imeni datotek bo program dobil kot konzolna argumenta. Vaša naloga je, da iz vhodne datoteke preberete HTTP povpraševanje vrstico za vrstico in z regularnimi izrazi izluščite metodo, pot in glave, nato preberete še vsebino. Nato na podlagi teh informacij izberete primeren način procesiranja, in pripravite HTTP odgovor, ki ga zapišete v izhodno datoteko.
 
 Podpreti morate naslednje možnosti (za ujemanje poti uporabite regularne izraze):
 
