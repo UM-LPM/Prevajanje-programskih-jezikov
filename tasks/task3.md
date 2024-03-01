@@ -1,4 +1,4 @@
-Napišite program, ki bo v tekstovnih dokumentih cenzuriral številke kreditnih kartic banke BANKA. Program mora številke zamenjati z `SI56-***-***-***-XXX` (mesta z X pustite nespremenjena). Dokumente morate prebrati iz datoteke in jih izpisati v novo datoteko.
+Napišite program, ki bo v tekstovnih dokumentih cenzuriral številke kreditnih kartic banke BANKA. Program mora številke zamenjati z `SI56-***-***-***-XXX` (mesta z X pustite nespremenjena). Dokumente morate prebrati iz datoteke in jih izpisati v novo datoteko. Imeni datotek bo program dobil kot konzolna argumenta.
 
 Primer:
 
