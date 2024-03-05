@@ -13,7 +13,7 @@ $$
     \text{times} &= \texttt{*}\cr
     \text{divides} &= \texttt{/}\cr
     \text{integer-divides} &= \texttt{//}\cr
-    \text{pow} &= \texttt{\^}\cr
+    \text{pow} &= \texttt{\textasciicircum}\cr
     \text{lparen} &= \texttt{(}\cr
     \text{rparen} &= \texttt{)}\cr
     \text{skip} &= \{\texttt{␣}, \texttt{\\t}, \texttt{\\n}\}^+
