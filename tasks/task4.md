@@ -4,7 +4,7 @@ Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v
 
 \\[
 \begin{aligned}
-    real &= \\{0, \dots, 9\\}^+
+    \text{real} &= \\{\mathtt{0}, \dots, \mathtt{9}\\}^+
 \end{aligned}
 \\]
 
