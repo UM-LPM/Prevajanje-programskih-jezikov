@@ -32,3 +32,5 @@
 * [Naloga 1](tasks/task1)
 * [Naloga 2](tasks/task2)
 * [Naloga 3](tasks/task3)
+* [Naloga 4](tasks/task4)
+* [Naloga 5](tasks/task5)
