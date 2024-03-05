@@ -10,7 +10,7 @@ $$
     \text{variable} &= \{\texttt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\}^+\,\{\mathtt{0}, \dots, \mathtt{9}\}^\ast\cr
     \text{plus} &= \texttt{+}\cr
     \text{minus} &= \texttt{-}\cr
-    \text{times} &= \texttt{\}\cr
+    \text{times} &= \texttt{*}\cr
     \text{divides} &= \texttt{/}\cr
     \text{integer-divides} &= \texttt{//}\cr
     \text{lparen} &= \texttt{(}\cr
