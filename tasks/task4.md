@@ -5,7 +5,7 @@ Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v
 \\[
 \begin{aligned}
     1 &= 2
-\end{align}
+\end{aligned}
 \\]
 
     \text{real} &= \{\texttt{0}, \dots, \texttt{9}\}^+\,(.\,\{\texttt{0}, \dots, \texttt{9}\}^+)?\\
