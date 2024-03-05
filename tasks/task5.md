@@ -12,6 +12,7 @@ print(fakulteta);
 ```
 
 Dodatni terminalni simboli:
+
 $$
 \begin{aligned}
     \text{assign} &= \mathtt{=}\\
