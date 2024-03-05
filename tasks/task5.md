@@ -28,3 +28,5 @@ $$
 
 Program naj kot argument prejme ime vhodne datoteke in izpiše tokene na standardni izhod v formatu: terminal("leksem") terminal("leksem") ...
 Uporaba knjižnic za regularne izraze ni dovoljena.
+
+Nalogo oddajte na GitHub TODO

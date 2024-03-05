@@ -10,7 +10,7 @@ $$
     \text{variable} &= \{\texttt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\}^+\,\{\mathtt{0}, \dots, \mathtt{9}\}^\ast\cr
     \text{plus} &= \texttt{+}\cr
     \text{minus} &= \texttt{-}\cr
-    \text{times} &= \texttt{*}\cr
+    \text{times} &= \texttt{\}\cr
     \text{divides} &= \texttt{/}\cr
     \text{integer-divides} &= \texttt{//}\cr
     \text{lparen} &= \texttt{(}\cr
@@ -22,4 +22,4 @@ $$
 Program naj kot argument prejme ime vhodne datoteke in izpiše tokene na standardni izhod v formatu: `terminal("leksem") terminal("leksem") ...`
 Uporaba knjižnic za regularne izraze ni dovoljena.
 
-
+Nalogo oddajte na GitHub TODO
