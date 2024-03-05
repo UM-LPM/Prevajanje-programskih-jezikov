@@ -4,9 +4,8 @@ Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v
 
 \\[
 \begin{aligned}
-    \text{real} &= \\{\mathtt{0}, \dots, \mathtt{9}\\}^+\,(\mathtt{.}\,\\{\mathtt{0}, \dots, \mathtt{9}\\}^+)?\\
-    \text{variable} &= \\{\mathtt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\\}^+\, \\{\mathtt{0}, \dots, \mathtt{9}\}?\\
-
+    \text{real} &= \\{\mathtt{0}, \dots, \mathtt{9}\\}^+\,(\mathtt{.}\,\\{\mathtt{0}, \dots, \mathtt{9}\\}^+)?\\\\
+    \text{variable} &= \\{\mathtt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\\}^+\,\\{\mathtt{0}, \dots, \mathtt{9}\}^*
 \end{aligned}
 \\]
 
