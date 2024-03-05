@@ -16,7 +16,7 @@ $$
     \text{pow} &= \texttt{\textasciicircum}\cr
     \text{lparen} &= \texttt{(}\cr
     \text{rparen} &= \texttt{)}\cr
-    \text{skip} &= \{\texttt{␣}, \texttt{\\t}, \texttt{\\n}\}^+
+    \text{skip} &= \{\texttt{␣}, \texttt{\backslash t}, \texttt{\backslash n}\}^+
 \end{aligned}
 $$
 
