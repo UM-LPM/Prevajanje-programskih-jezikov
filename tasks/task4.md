@@ -4,6 +4,10 @@ Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v
 
 \\[
 \begin{aligned}
+    1 &= 2
+\end{align}
+\\]
+
     \text{real} &= \{\texttt{0}, \dots, \texttt{9}\}^+\,(.\,\{\texttt{0}, \dots, \texttt{9}\}^+)?\\
     \text{variable} &= \{\texttt{A}, \dots, \texttt{Z}, \texttt{a}, \dots, \texttt{z}\}^+\ \{\texttt{0}, \dots, \texttt{9}\}?\\
     \text{term} &= \texttt{;}\\
@@ -22,5 +26,3 @@ Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v
     \text{end} &= \texttt{\}}\\
     \text{print} &= \texttt{print}\\
     \text{skip} &= \{\texttt{␣}, \texttt{\\t}, \texttt{\\n}\}^+
-\end{align}
-\\]
