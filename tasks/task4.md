@@ -2,6 +2,7 @@ Pregledovalnik (scanner) ali leksikalni analizator predstavlja vmesnik med izvor
 
 Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v terminalne simbole. Za opis terminalnih simbolov uporabljamo končne avtomate, te pa najlažje implementiramo s tabelo.
 
+Osnovni terminalni simboli:
 $$
 \begin{aligned}
     \text{real} &= \{\mathtt{0}, \dots, \mathtt{9}\}^+\,(\mathtt{.}\,\{\mathtt{0}, \dots, \mathtt{9}\}^+)?\cr
@@ -17,12 +18,7 @@ $$
 \end{aligned}
 $$
 
+Program naj kot argument prejme ime vhodne datoteke in izpiše tokene na standardni izhod v formatu: `terminal("leksem") terminal("leksem") ...`
+Uporaba knjižnic za regularne izraze ni dovoljena.
 
-    \text{assign} &= \texttt{=}\\
-    \text{define} &= \texttt{var}\\
-    \text{term} &= \texttt{;}\\
-    \text{for} &= \texttt{for}\\
-    \text{to} &= \texttt{,}\\
-    \text{begin} &= \texttt{\{}\\
-    \text{end} &= \texttt{\}}\\
-    \text{print} &= \texttt{print}\\
+
