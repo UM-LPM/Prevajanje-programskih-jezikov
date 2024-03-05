@@ -15,7 +15,7 @@ Dodatni terminalni simboli:
 
 $$
 \begin{aligned}
-    \text{assign} &= \mathtt{=}\\
+    \text{assign} &= \texttt{=}\\
     \text{define} &= \mathtt{var}\\
     \text{term} &= \mathtt{;}\\
     \text{for} &= \mathtt{for}\\
