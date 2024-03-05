@@ -4,8 +4,25 @@ Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v
 
 $$
 \begin{aligned}
-    \text{real} &= \\{\mathtt{0}, \dots, \mathtt{9}\\}^+\,(\mathtt{.}\,\\{\mathtt{0}, \dots, \mathtt{9}\\}^+)?\cr
-    1 &= 1
+    \text{real} &= \{\mathtt{0}, \dots, \mathtt{9}\}^+\,(\mathtt{.}\,\{\mathtt{0}, \dots, \mathtt{9}\}^+)?\cr
+    \text{variable} &= \{\mathtt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\}^+\,\{\mathtt{0}, \dots, \mathtt{9}\}^*
 \end{aligned}
 $$
 
+
+    \text{term} &= \texttt{;}\\
+    \text{plus} &= \texttt{+}\\
+    \text{minus} &= \texttt{-}\\
+    \text{times} &= \texttt{\ast}\\
+    \text{divides} &= \texttt{/}\\
+    \text{integer-divides} &= \texttt{//}\\
+    \text{lparen} &= \texttt{(}\\
+    \text{rparen} &= \texttt{)}\\
+    \text{assign} &= \texttt{=}\\
+    \text{define} &= \texttt{var}\\
+    \text{for} &= \texttt{for}\\
+    \text{to} &= \texttt{,}\\
+    \text{begin} &= \texttt{\{}\\
+    \text{end} &= \texttt{\}}\\
+    \text{print} &= \texttt{print}\\
+    \text{skip} &= \{\texttt{␣}, \texttt{\\t}, \texttt{\\n}\}^+
