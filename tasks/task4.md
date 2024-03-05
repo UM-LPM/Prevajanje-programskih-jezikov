@@ -4,10 +4,11 @@ Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v
 
 \\[
 \begin{aligned}
-    real &= \{0, \dots, 9\}^+\,(.\,\{0, \dots, 9\}^+)?\\
+    real &= \{0, \dots, 9\}^+
 \end{aligned}
 \\]
 
+\,(.\,\{0, \dots, 9\}^+)?
     \text{variable} &= \{\texttt{A}, \dots, \texttt{Z}, \texttt{a}, \dots, \texttt{z}\}^+\ \{\texttt{0}, \dots, \texttt{9}\}?\\
     \text{term} &= \texttt{;}\\
     \text{plus} &= \texttt{+}\\
