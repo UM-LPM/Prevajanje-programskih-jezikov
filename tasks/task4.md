@@ -9,23 +9,3 @@ Pregledovalnik obravnava vhodno datoteko kot niz znakov, ki jih nato sestavlja v
 \end{aligned}
 \\]
 
-\text{variable} &= \\{\mathtt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\\}^+
-
-\,\\{\mathtt{0}, \dots, \mathtt{9}\}
-
-    \text{term} &= \texttt{;}\\
-    \text{plus} &= \texttt{+}\\
-    \text{minus} &= \texttt{-}\\
-    \text{times} &= \texttt{\ast}\\
-    \text{divides} &= \texttt{/}\\
-    \text{integer-divides} &= \texttt{//}\\
-    \text{lparen} &= \texttt{(}\\
-    \text{rparen} &= \texttt{)}\\
-    \text{assign} &= \texttt{=}\\
-    \text{define} &= \texttt{var}\\
-    \text{for} &= \texttt{for}\\
-    \text{to} &= \texttt{,}\\
-    \text{begin} &= \texttt{\{}\\
-    \text{end} &= \texttt{\}}\\
-    \text{print} &= \texttt{print}\\
-    \text{skip} &= \{\texttt{␣}, \texttt{\\t}, \texttt{\\n}\}^+
