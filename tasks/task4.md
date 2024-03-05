@@ -6,16 +6,16 @@ Osnovni terminalni simboli:
 
 $$
 \begin{aligned}
-    \text{real} &= \{\mathtt{0}, \dots, \mathtt{9}\}^+\,(\mathtt{.}\,\{\mathtt{0}, \dots, \mathtt{9}\}^+)?\cr
-    \text{variable} &= \{\mathtt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\}^+\,\{\mathtt{0}, \dots, \mathtt{9}\}^\ast\cr
-    \text{plus} &= \mathtt{+}\cr
-    \text{minus} &= \mathtt{-}\cr
-    \text{times} &= \mathtt{\ast}\cr
-    \text{divides} &= \mathtt{/}\cr
-    \text{integer-divides} &= \mathtt{//}\cr
-    \text{lparen} &= \mathtt{(}\cr
-    \text{rparen} &= \mathtt{)}\cr
-    \text{skip} &= \{\mathtt{␣}, \mathtt{\\t}, \mathtt{\\n}\}^+
+    \text{real} &= \{\texttt{0}, \dots, \mathtt{9}\}^+\,(\mathtt{.}\,\{\mathtt{0}, \dots, \mathtt{9}\}^+)?\cr
+    \text{variable} &= \{\texttt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\}^+\,\{\mathtt{0}, \dots, \mathtt{9}\}^\ast\cr
+    \text{plus} &= \texttt{+}\cr
+    \text{minus} &= \texttt{-}\cr
+    \text{times} &= \texttt{\ast}\cr
+    \text{divides} &= \texttt{/}\cr
+    \text{integer-divides} &= \texttt{//}\cr
+    \text{lparen} &= \texttt{(}\cr
+    \text{rparen} &= \texttt{)}\cr
+    \text{skip} &= \{\texttt{␣}, \mathtt{\\t}, \mathtt{\\n}\}^+
 \end{aligned}
 $$
 

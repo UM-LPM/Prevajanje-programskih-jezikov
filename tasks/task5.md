@@ -16,13 +16,13 @@ Dodatni terminalni simboli:
 $$
 \begin{aligned}
     \text{assign} &= \texttt{=}\\
-    \text{define} &= \mathtt{var}\\
-    \text{term} &= \mathtt{;}\\
-    \text{for} &= \mathtt{for}\\
-    \text{to} &= \mathtt{,}\\
-    \text{begin} &= \mathtt{\{}\\
-    \text{end} &= \mathtt{\}}\\
-    \text{print} &= \mathtt{print}\\
+    \text{define} &= \texttt{var}\\
+    \text{term} &= \texttt{;}\\
+    \text{for} &= \texttt{for}\\
+    \text{to} &= \texttt{,}\\
+    \text{begin} &= \texttt{\{}\\
+    \text{end} &= \texttt{\}}\\
+    \text{print} &= \texttt{print}\\
 \end{aligned}
 $$
 
