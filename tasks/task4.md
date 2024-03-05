@@ -6,8 +6,8 @@ Osnovni terminalni simboli:
 
 $$
 \begin{aligned}
-    \text{real} &= \{\texttt{0}, \dots, \mathtt{9}\}^+\,(\mathtt{.}\,\{\mathtt{0}, \dots, \mathtt{9}\}^+)?\cr
-    \text{variable} &= \{\texttt{A}, \dots, \mathtt{Z}, \mathtt{a}, \dots, \mathtt{z}\}^+\,\{\mathtt{0}, \dots, \mathtt{9}\}^\ast\cr
+    \text{real} &= \{\texttt{0}, \dots, \texttt{9}\}^+\,(\texttt{.}\,\{\texttt{0}, \dots, \texttt{9}\}^+)?\cr
+    \text{variable} &= \{\texttt{A}, \dots, \texttt{Z}, \texttt{a}, \dots, \texttt{z}\}^+\,\{\texttt{0}, \dots, \texttt{9}\}^\ast\cr
     \text{plus} &= \texttt{+}\cr
     \text{minus} &= \texttt{-}\cr
     \text{times} &= \texttt{*}\cr
@@ -16,7 +16,7 @@ $$
     \text{pow} &= \texttt{^}\cr
     \text{lparen} &= \texttt{(}\cr
     \text{rparen} &= \texttt{)}\cr
-    \text{skip} &= \{\texttt{␣}, \mathtt{\\t}, \mathtt{\\n}\}^+
+    \text{skip} &= \{\texttt{␣}, \texttt{\\t}, \texttt{\\n}\}^+
 \end{aligned}
 $$
 
