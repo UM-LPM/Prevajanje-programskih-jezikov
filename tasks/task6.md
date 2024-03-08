@@ -27,4 +27,4 @@ Program naj loči med sintaktično veljavnimi: `10 & #FF + ( 3 * 4 + var123)`, i
 Program naj iz vhodne datoteke prebere izvorni program in v izhodno datoteko izpiše `accept`, če je primer veljaven in `reject`, če je primer neveljaven.
 Imeni datotek bo program dobil kot konzolna argumenta.
 
-Nalogo oddajte na GitHub, TODO.
+Nalogo oddajte na GitHub, [link](https://classroom.github.com/a/g9K1HbL4).
