@@ -22,7 +22,7 @@ $$
 \end{alignedat}
 $$
 
-Program naj loči med sintaktično veljavnimi: `10 & #FF + ( 3 * 4 + var123)`, in sintaktično nevaljavnimi programi: `5 * 6 + 7 8`.
+Program naj loči med sintaktično veljavnimi: `5 * 6 + ( 3 * 4 + var123)`, in sintaktično nevaljavnimi programi: `5 * 6 + 7 8`.
 
 Program naj iz vhodne datoteke prebere izvorni program in v izhodno datoteko izpiše `accept`, če je primer veljaven in `reject`, če je primer neveljaven.
 Imeni datotek bo program dobil kot konzolna argumenta.
