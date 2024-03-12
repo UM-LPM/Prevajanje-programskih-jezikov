@@ -18,7 +18,7 @@ $$
     \text{Exponential'} &&{}\Coloneqq{} &\text{pow} \Seq \text{Unary} \Seq \text{Exponential'}\cr
 &&{}\Union{}& \epsilon\cr
     \text{Unary} &&{}\Coloneqq{} &\text{plus} \Seq \text{Primary} \Union \text{minus} \Seq \text{Primary} \Union \text{Primary}\cr
-    \text{Primary} &&{}\Coloneqq{} &\text{real} \Union \text{variable} \Union \text{lparen} \Seq \text{Expr} \Seq \text{rparen}
+    \text{Primary} &&{}\Coloneqq{} &\text{real} \Union \text{variable} \Union \text{lparen} \Seq \text{Additive} \Seq \text{rparen}
 \end{alignedat}
 $$
 
