@@ -2,8 +2,7 @@ Pripravite abstraktno sintaktično drevo za jezik iz nalog 4 in 6.
 
 Gramatika abstraktne sintakse je:
 
-$$
-\newcommand\Seq{\mathrel{}}
+$$ \newcommand\Seq{\mathrel{}}
 \newcommand\Union{\mathrel{|}}
 \begin{alignedat}{3}
     \text{Expr}_{start} &&{}\Coloneqq{} &\text{Expr} \Seq \text{plus} \Seq \text{Expr}\cr
@@ -51,4 +50,4 @@ $$
 \end{aligned}
 $$
 
-Nalogo oddajte na GitHub, TODO. Ta naloga nima avtomatskih testov.
+Nalogo oddajte na GitHub, [link](https://classroom.github.com/a/0cGJew5h). Ta naloga nima avtomatskih testov.
