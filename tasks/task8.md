@@ -51,3 +51,4 @@ $$
 \end{aligned}
 $$
 
+Nalogo oddajte na GitHub, TODO. Ta naloga nima avtomatskih testov.
