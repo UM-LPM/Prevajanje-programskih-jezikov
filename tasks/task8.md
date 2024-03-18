@@ -1,4 +1,4 @@
-Pripravite abstraktno sintaktično drevo za programe iz nalog 4 in 6.
+Pripravite abstraktno sintaktično drevo za jezik iz nalog 4 in 6.
 
 Gramatika abstraktne sintakse je:
 
