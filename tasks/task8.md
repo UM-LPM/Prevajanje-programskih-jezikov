@@ -1,6 +1,7 @@
 Pripravite abstraktno sintaktično drevo za programe iz nalog 4 in 6.
 
 Gramatika abstraktne sintakse je:
+
 $$
 \newcommand\Seq{\mathrel{}}
 \newcommand\Union{\mathrel{|}}
@@ -19,6 +20,7 @@ $$
 $$
 
 Drevo izpelave za to gramatko je abstraktno sintaktično drevo, ki ga lahko predstavimo kot z naslednjo drevesno gramatiko:
+
 $$
 \newcommand\Seq{\mathrel{}}
 \newcommand\Union{\mathrel{|}}
@@ -42,7 +44,7 @@ $$
 \begin{aligned}
 &\text{plus}(\text{times}(\text{real}(\texttt{1.0}), \text{real}(\texttt{2.0})), \text{real}(\texttt{3.0}))\\
 &\text{times}(\text{real}(\texttt{1.0}), \text{plus}(\text{real}(\texttt{2.0}), \text{real}(\texttt{3.0})))\\
-&\text{minus}(\text{minus}(\text{real}(\textt{4.0}), \text{real}(\texttt{1.0})), \text{real}(\texttt{1.0}))
+&\text{minus}(\text{minus}(\text{real}(\texttt{4.0}), \text{real}(\texttt{1.0})), \text{real}(\texttt{1.0}))
 \end{aligned}
 $$
 
