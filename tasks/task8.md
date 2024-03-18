@@ -45,8 +45,8 @@ $$
 &\text{plus}(\text{times}(\text{real}(\texttt{1.0}), \text{real}(\texttt{2.0})), \text{real}(\texttt{3.0}))\\
 &\text{times}(\text{real}(\texttt{1.0}), \text{plus}(\text{real}(\texttt{2.0}), \text{real}(\texttt{3.0})))\\
 &\text{minus}(\text{minus}(\text{real}(\texttt{4.0}), \text{real}(\texttt{1.0})), \text{real}(\texttt{1.0}))\\
-&\text{divides}(\text{real}(\texttt{4.0}), \text{plus}(\text{variable}(\texttt{x}), \text{unary-minus}(\texttt{1.0})))\\
-&\text{integer-divides}(\text{plus}(\text{variable}(\texttt{x}), \text{variable}(\texttt{y})), \text{pow}(\text{real}(\texttt{2.0}), \text{real}(\text{real}(\texttt{2.0}))))\\
+&\text{divides}(\text{real}(\texttt{4.0}), \text{plus}(\text{variable}(\texttt{x}), \text{unary-minus}(\text{real}(\texttt{1.0}))))\\
+&\text{integer-divides}(\text{plus}(\text{variable}(\texttt{x}), \text{variable}(\texttt{y})), \text{pow}(\text{real}(\texttt{2.0}), \text{real}(\texttt{2.0})))\\
 &\text{unary-minus}(\text{plus}(\text{real}(\texttt{1.0}), \text{real}(\texttt{2.0})))
 \end{aligned}
 $$
