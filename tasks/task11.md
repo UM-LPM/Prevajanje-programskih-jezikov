@@ -5,4 +5,4 @@ Pravlinost metode `toXML()` preverite na enega od nalednjih načinov:
 - S programom xmllint, `xmllint --shema SHEMA DOKUMENT`.
 - Z online validatorjem, [link](https://www.liquid-technologies.com/online-xsd-validator).
 
-Nalogo oddajte na GitHub, [link](https://classroom.github.com/a/0cGJew5h). Ta naloga nima avtomatskih testov.
+Nalogo oddajte na GitHub, TODO. Ta naloga nima avtomatskih testov.
