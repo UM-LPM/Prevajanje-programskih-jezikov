@@ -5,16 +5,7 @@ Pravlinost metode `toXML()` preverite na enega od nalednjih načinov:
 - S programom xmllint, `xmllint --shema SHEMA DOKUMENT`.
 - Z online validatorjem, [link](https://www.liquid-technologies.com/online-xsd-validator).
 
-Primer:
-
-Abstraktno sintaktično drevo:
-
-$$
-\text{seq}(\text{definition}(\texttt{i}, \text{real}(\texttt{1.0})), \text{print}(\text{variable}(\texttt{i})))
-$$
-
-XML:
-
+Primer XML dokumenta:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <program>
