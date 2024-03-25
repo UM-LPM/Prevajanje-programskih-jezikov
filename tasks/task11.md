@@ -19,4 +19,4 @@ Primer XML dokumenta:
 </program>
 ```
 
-Nalogo oddajte na GitHub, TODO. Ta naloga nima avtomatskih testov.
+Nalogo oddajte na GitHub, [link](https://classroom.github.com/a/lq6pCJZ8). Ta naloga nima avtomatskih testov.

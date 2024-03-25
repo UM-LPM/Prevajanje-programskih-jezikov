@@ -21,4 +21,4 @@ Nekaj koristnih povezav:
 - [XML jezik](https://en.wikipedia.org/wiki/XML)
 - [XML tutorial](https://www.w3schools.com/xml/default.asp)
 
-Nalogo oddajte na GitHub, TODO. Ta naloga nima avtomatskih testov.
+Nalogo oddajte na tej spletni strani.
