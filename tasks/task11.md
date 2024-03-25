@@ -8,11 +8,13 @@ Pravlinost metode `toXML()` preverite na enega od nalednjih načinov:
 Primer:
 
 Abstraktno sintaktično drevo:
+
 $$
 \text{plus}(\text{times}(\text{real}(\texttt{1.0}), \text{real}(\texttt{2.0})), \text{real}(\texttt{3.0}))
 $$
 
 XML:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <program>
