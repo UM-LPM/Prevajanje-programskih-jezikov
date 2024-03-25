@@ -8,6 +8,15 @@
   <xsd:group name="Stmts">
       <xsd:choice>
 
+        <xsd:element name="seq">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Stmts" />
+              <xsd:group ref="Stmts" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
         <xsd:element name="definition">
           <xsd:complexType>
             <xsd:sequence>
