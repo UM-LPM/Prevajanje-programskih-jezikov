@@ -20,5 +20,6 @@ Pravlinost sheme lahko preverite na enega od naslednjih načinov:
 Nekaj koristnih povezav:
 - [XML jezik](https://en.wikipedia.org/wiki/XML)
 - [XML tutorial](https://www.w3schools.com/xml/default.asp)
+- [XSD vgrajeni podatkovni tipi](https://www.w3.org/TR/xmlschema-2/#built-in-datatypes)
 
 Nalogo oddajte na tej spletni strani.
