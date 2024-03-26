@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="program">
+    <xsd:complexType>
+      <xsd:group ref="Stmts" />
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:group name="Stmts">
+      <xsd:choice>
+
+        <xsd:element name="seq">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Stmt" />
+              <xsd:group ref="Stmts" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="end">
+          <xsd:complexType />
+        </xsd:element>
+
+      </xsd:choice>
+  </xsd:group>
+
+  <xsd:group name="Stmt">
+      <xsd:choice>
+
+        <xsd:element name="definition">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+            <xsd:attribute name="variable" type="variable" />
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="assignment">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+            <xsd:attribute name="variable" type="variable" />
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="for">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+              <xsd:group ref="Expr" />
+              <xsd:group ref="Stmts" />
+            </xsd:sequence>
+            <xsd:attribute name="variable" type="variable" />
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="print">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+      </xsd:choice>
+  </xsd:group>
+
+  <xsd:group name="Expr">
+      <xsd:choice>
+        <xsd:element name="plus">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="minus">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="times">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="divides">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="integer-divides">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="pow">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:group ref="Expr" />
+              <xsd:group ref="Expr" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="unary-plus">
+          <xsd:complexType>
+              <xsd:group ref="Expr" />
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="unary-minus">
+          <xsd:complexType>
+              <xsd:group ref="Expr" />
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="real" type="xsd:double" />
+        <xsd:element name="variable" type="variable" />
+
+      </xsd:choice>
+  </xsd:group>
+
+  <xsd:simpleType name="variable">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[A-za-z]+[0-9]*"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+</xsd:schema>
