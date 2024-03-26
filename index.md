@@ -38,3 +38,6 @@
 * [Naloga 7](tasks/task7)
 * [Naloga 8](tasks/task8)
 * [Naloga 9](tasks/task9)
+* [Naloga 10](tasks/task10)
+* [Naloga 11](tasks/task11)
+* [Naloga 12](tasks/task12)
