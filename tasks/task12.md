@@ -19,7 +19,7 @@ Primer XML dokumenta:
     </seq>
 </program>
 ```
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <program>
     <seq>
