@@ -8,12 +8,14 @@ Program naj iz vhodne datoteke prebere izvorni program, ga razčleni, ovrednoti 
 Rezultat naslednjega primera
 
 ```
-stevilo := 10;
-fakulteta:=1;
-for (i := 1 to stevilo - 1) begin
-     fakulteta:= fakulteta * i
-end;
-CONSOLE fakulteta
+var n = 10;
+var factorial = 1;
+
+for (var i = 1, n - 1) {
+     factorial = factorial * i;
+}
+
+print(factorial);
 ```
 
 naj bo enak:
