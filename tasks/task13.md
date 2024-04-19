@@ -1,6 +1,6 @@
 Napišite semantični evaluator za razpoznavalnik iz naloge 6.
 
-Razpoznavalnik iz naloge 6. nadgradite v razčlenjevalnik, tako da sproti gradite abstraktno sintaktično drevo iz naloge 8.
+Razpoznavalnik iz naloge 6 nadgradite v razčlenjevalnik, tako da sproti gradite abstraktno sintaktično drevo iz naloge 8.
 Abstraktnemu sintaktičnemu drevesu dodajte metodo `eval`, ki ga bo ovrednotila v številsko vrednost.
 
 Opazite, da lahko oba koraka opišemo z atributno gramatiko.
