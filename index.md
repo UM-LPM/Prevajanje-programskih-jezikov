@@ -41,3 +41,6 @@
 * [Naloga 10](tasks/task10)
 * [Naloga 11](tasks/task11)
 * [Naloga 12](tasks/task12)
+* [Naloga 13](tasks/task13)
+* [Naloga 14](tasks/task14)
+* [Naloga 15](tasks/task15)
