@@ -1,4 +1,5 @@
 Napišite semantični evaluator za razpoznavalnik iz naloge 7.
+
 Razpoznavalnik iz naloge 7. nadgradite v razčlenjevalnik, tako da sproti gradite abstraktno sintaktično drevo iz naloge 9.
 Abstraktnemu sintaktičnemu drevesu dodajte metodo `eval`, ki ga bo ovrednotila.
 
