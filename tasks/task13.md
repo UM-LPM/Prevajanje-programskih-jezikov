@@ -1,6 +1,6 @@
-Abstraktnemu sintaktičnemu drevesu iz naloge 8. dodajte metodo `eval`, ki ga bo ovrednotila v številsko vrednost.
-
-Nato razpoznavalnik iz naloge 6. nadgradite v razčlenjevalnik, tako da sproti gradite abstraktno sintaktično drevo.
+Napišite semantični evaluator za razpoznavalnik iz naloge 6.
+Razpoznavalnik iz naloge 6. nadgradite v razčlenjevalnik, tako da sproti gradite abstraktno sintaktično drevo iz naloge 8.
+Abstraktnemu sintaktičnemu drevesu dodajte metodo `eval`, ki ga bo ovrednotila v številsko vrednost.
 
 Opazite, da lahko oba koraka opišemo z atributno gramatiko.
 
@@ -14,3 +14,8 @@ $$
     y &= 3
 \end{aligned}
 $$
+
+Nad izgrajenim abstraktnim sintaktičnim drevesom preizkusite tudi metodi `toString` in `toXML`.
+Opazite, da samo ob enem implementirali tudi *minifier* ali *pretty-printer* in serializator v XML.
+
+Nalogo oddajte na GitHub, [link](https://classroom.github.com/a/hdFQzC-R).
