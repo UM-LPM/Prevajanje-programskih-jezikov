@@ -17,6 +17,6 @@ $$
 $$
 
 Nad izgrajenim abstraktnim sintaktičnim drevesom preizkusite tudi metodi `toString` in `toXML`.
-Opazite, da samo ob enem implementirali tudi *minifier* ali *pretty-printer* in serializator v XML.
+Opazite, da smo ob enem implementirali tudi *minifier* ali *pretty-printer* in serializator v XML.
 
 Nalogo oddajte na GitHub, [link](https://classroom.github.com/a/hdFQzC-R).
