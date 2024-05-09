@@ -9,7 +9,3 @@ V naslednjem letu boste pri predmetu *Razvoj računalniških iger* abstraktničn
 ![rri](rri.png)
 
 Nalogo implementirate v poljubnem programskem jeziku, ki ima podporo za JVM. Torej Kotlin, Java, Scala, itd.
-
-
-
-

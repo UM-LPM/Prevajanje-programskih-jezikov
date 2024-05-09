@@ -84,7 +84,7 @@ $$
 $$
 
 Ker je $\sin(\pi/2) = 1$ sta dolžina $\Delta$ in kot $\nu$ enaka.
-Torej, lahko namesto $\Delta$ lahko izračunamo $\nu$.
+Torej, lahko namesto $\Delta$ izračunamo $\nu$.
 
 Uporabimo preoblikovan kosinusni izrek nad trikotnikom $BNA$. Sedaj imamo vse dolžine stranic in iščemo $\cos{\nu}$:
 
