@@ -26,6 +26,8 @@ Krožnica na zeljevidu zaradi projekcje vedno ne bo okrogla.
 
 ## Izpeljava
 
+![circle](circle.svg)
+
 Izpeljava temelji na trikotnikih na krogli.
 Potrebovali bomo [kosinusni izrek za stranice](https://en.wikipedia.org/wiki/Spherical_trigonometry#Cosine_rules_and_sine_rules) in eno izmed [Napierjevih enačb](https://en.wikipedia.org/wiki/Spherical_trigonometry#Napier's_rules_for_right_spherical_triangles).
 Slednjo lahko uporabimo le, če je imamo pravokotni trikotnik.
@@ -43,8 +45,6 @@ $$
 \sin{\alpha} &= \frac{\sin{a}}{\sin{c}}
 \end{aligned}
 $$
-
-![circle](circle.svg)
 
 Prav tako bomo uporabili enakosti:
 
