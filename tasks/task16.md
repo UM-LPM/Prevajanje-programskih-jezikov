@@ -13,3 +13,5 @@ Nalogo implementirate v poljubnem programskem jeziku, ki ima podporo za JVM. Tor
 ### Dodatna navodila
 
 - [Izris krožnice](http://ppj.lpm.feri.um.si/tasks/circle.html)
+- [Bezier](https://gist.github.com/brokenpylons/a055457075a5b34866e4ad1a5a56c0df)
+- [Funkcije](https://gist.github.com/brokenpylons/3d4dacd1521b99e8d5a3070a5f5911a5)
