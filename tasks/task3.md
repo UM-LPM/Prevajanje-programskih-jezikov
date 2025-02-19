@@ -28,4 +28,4 @@ Tine Novak
 BANKA, d. d.
 ```
 
-Nalogo odajte na GitHub, [link](https://classroom.github.com/a/FDmXkNZK).
+Nalogo odajte na GitHub, [link](https://classroom.github.com/a/B3AwPKN5).

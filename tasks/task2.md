@@ -54,4 +54,4 @@ Več si lahko preberete tukaj:
 
 Na voljo imate dve obliki naloge, pri prvi so končnice mešane, tako kot je opisano zgoraj, pri drugi pa so kot poenostavitev prilagojene vašemu operacijskemu sistemu (torej na Windows bo povsod sledila končnica CR LF, na Linux in macOS LF). Katero boste reševali si lahko izberete sami, za pravilno rešitev v obeh primerih dobite polne točke.
 
-Nalogo oddajte na GitHub, [original](https://classroom.github.com/a/FUmT7Icg), [poenostavljena](https://classroom.github.com/a/Q0yJ7MXt).
+Nalogo oddajte na GitHub, [original](https://classroom.github.com/a/CyLW5wt2), [poenostavljena](https://classroom.github.com/a/UJizGScm).
